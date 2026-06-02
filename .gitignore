@@ -1,0 +1,31 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+out/
+.DS_Store
+
+# Large generated research outputs live in the Hugging Face artifact dataset.
+artifacts/
+analysis/
+logs/
+out/
+data/real_commits/
+data/real_commit_candidates/
+data/manifests/
+data/manifests_frozen_audit_raw/
+data/manifests_phase2/
+data/manifests_phase3/
+data/manifests_prompt_injection/
+data/manifests_transpld_ext/
+data/routers/
+
+# Keep the small locked audit manifests in Git.
+!data/manifests_frozen_audit/
+!data/manifests_frozen_audit/**
+
+# Local release bundles.
+*.tar.gz
+*.zip

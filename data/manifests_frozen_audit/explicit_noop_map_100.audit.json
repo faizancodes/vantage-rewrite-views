@@ -1,0 +1,1012 @@
+{
+  "schema": "vantage_explicit_noop_map_manifest_audit_v1",
+  "source_manifest": "/Users/faizanahmed/code-flow/research/asts-spec/data/manifests_frozen_audit/zero_drift100.jsonl",
+  "output_manifest": "/Users/faizanahmed/code-flow/research/asts-spec/data/manifests_frozen_audit/explicit_noop_map_100.jsonl",
+  "tokenizer": "Qwen/Qwen2.5-Coder-7B",
+  "n": 100,
+  "prompt_visible_maps": 100,
+  "rewrite_changed_reference": 0,
+  "tokenization_changed": 0,
+  "rows": [
+    {
+      "task_id": "explicit_noop_map/000/drift_renamepct/0/codeparrot/146/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/146/0",
+      "old": "__vantage_unused_old_000",
+      "new": "__vantage_unused_new_000",
+      "reference_tokens": 110,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/001/drift_renamepct/0/codeparrot/146/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/146/1",
+      "old": "__vantage_unused_old_001",
+      "new": "__vantage_unused_new_001",
+      "reference_tokens": 88,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/002/drift_renamepct/0/codeparrot/146/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/146/2",
+      "old": "__vantage_unused_old_002",
+      "new": "__vantage_unused_new_002",
+      "reference_tokens": 96,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/003/drift_renamepct/0/codeparrot/146/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/146/3",
+      "old": "__vantage_unused_old_003",
+      "new": "__vantage_unused_new_003",
+      "reference_tokens": 161,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/004/drift_renamepct/0/codeparrot/316/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/316/0",
+      "old": "__vantage_unused_old_004",
+      "new": "__vantage_unused_new_004",
+      "reference_tokens": 255,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/005/drift_renamepct/0/codeparrot/316/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/316/1",
+      "old": "__vantage_unused_old_005",
+      "new": "__vantage_unused_new_005",
+      "reference_tokens": 139,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/006/drift_renamepct/0/codeparrot/533/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/533/0",
+      "old": "__vantage_unused_old_006",
+      "new": "__vantage_unused_new_006",
+      "reference_tokens": 207,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/007/drift_renamepct/0/codeparrot/646/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/0",
+      "old": "__vantage_unused_old_007",
+      "new": "__vantage_unused_new_007",
+      "reference_tokens": 52,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/008/drift_renamepct/0/codeparrot/646/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/1",
+      "old": "__vantage_unused_old_008",
+      "new": "__vantage_unused_new_008",
+      "reference_tokens": 116,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/009/drift_renamepct/0/codeparrot/646/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/2",
+      "old": "__vantage_unused_old_009",
+      "new": "__vantage_unused_new_009",
+      "reference_tokens": 73,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/010/drift_renamepct/0/codeparrot/646/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/3",
+      "old": "__vantage_unused_old_010",
+      "new": "__vantage_unused_new_010",
+      "reference_tokens": 45,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/011/drift_renamepct/0/codeparrot/646/4",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/4",
+      "old": "__vantage_unused_old_011",
+      "new": "__vantage_unused_new_011",
+      "reference_tokens": 400,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/012/drift_renamepct/0/codeparrot/646/5",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/5",
+      "old": "__vantage_unused_old_012",
+      "new": "__vantage_unused_new_012",
+      "reference_tokens": 355,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/013/drift_renamepct/0/codeparrot/646/6",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/6",
+      "old": "__vantage_unused_old_013",
+      "new": "__vantage_unused_new_013",
+      "reference_tokens": 186,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/014/drift_renamepct/0/codeparrot/646/7",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/7",
+      "old": "__vantage_unused_old_014",
+      "new": "__vantage_unused_new_014",
+      "reference_tokens": 206,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/015/drift_renamepct/0/codeparrot/646/8",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/8",
+      "old": "__vantage_unused_old_015",
+      "new": "__vantage_unused_new_015",
+      "reference_tokens": 316,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/016/drift_renamepct/0/codeparrot/646/9",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/9",
+      "old": "__vantage_unused_old_016",
+      "new": "__vantage_unused_new_016",
+      "reference_tokens": 184,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/017/drift_renamepct/0/codeparrot/646/10",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/10",
+      "old": "__vantage_unused_old_017",
+      "new": "__vantage_unused_new_017",
+      "reference_tokens": 97,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/018/drift_renamepct/0/codeparrot/646/11",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/11",
+      "old": "__vantage_unused_old_018",
+      "new": "__vantage_unused_new_018",
+      "reference_tokens": 170,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/019/drift_renamepct/0/codeparrot/646/12",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/12",
+      "old": "__vantage_unused_old_019",
+      "new": "__vantage_unused_new_019",
+      "reference_tokens": 150,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/020/drift_renamepct/0/codeparrot/646/13",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/13",
+      "old": "__vantage_unused_old_020",
+      "new": "__vantage_unused_new_020",
+      "reference_tokens": 852,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/021/drift_renamepct/0/codeparrot/646/14",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/14",
+      "old": "__vantage_unused_old_021",
+      "new": "__vantage_unused_new_021",
+      "reference_tokens": 102,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/022/drift_renamepct/0/codeparrot/646/15",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/15",
+      "old": "__vantage_unused_old_022",
+      "new": "__vantage_unused_new_022",
+      "reference_tokens": 206,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/023/drift_renamepct/0/codeparrot/646/16",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/16",
+      "old": "__vantage_unused_old_023",
+      "new": "__vantage_unused_new_023",
+      "reference_tokens": 662,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/024/drift_renamepct/0/codeparrot/646/17",
+      "source_task_id": "drift_renamepct/0/codeparrot/646/17",
+      "old": "__vantage_unused_old_024",
+      "new": "__vantage_unused_new_024",
+      "reference_tokens": 91,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/025/drift_renamepct/0/codeparrot/741/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/741/0",
+      "old": "__vantage_unused_old_025",
+      "new": "__vantage_unused_new_025",
+      "reference_tokens": 104,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/026/drift_renamepct/0/codeparrot/741/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/741/1",
+      "old": "__vantage_unused_old_026",
+      "new": "__vantage_unused_new_026",
+      "reference_tokens": 233,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/027/drift_renamepct/0/codeparrot/741/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/741/2",
+      "old": "__vantage_unused_old_027",
+      "new": "__vantage_unused_new_027",
+      "reference_tokens": 276,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/028/drift_renamepct/0/codeparrot/741/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/741/3",
+      "old": "__vantage_unused_old_028",
+      "new": "__vantage_unused_new_028",
+      "reference_tokens": 167,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/029/drift_renamepct/0/codeparrot/810/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/810/0",
+      "old": "__vantage_unused_old_029",
+      "new": "__vantage_unused_new_029",
+      "reference_tokens": 119,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/030/drift_renamepct/0/codeparrot/810/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/810/1",
+      "old": "__vantage_unused_old_030",
+      "new": "__vantage_unused_new_030",
+      "reference_tokens": 113,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/031/drift_renamepct/0/codeparrot/810/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/810/2",
+      "old": "__vantage_unused_old_031",
+      "new": "__vantage_unused_new_031",
+      "reference_tokens": 119,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/032/drift_renamepct/0/codeparrot/810/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/810/3",
+      "old": "__vantage_unused_old_032",
+      "new": "__vantage_unused_new_032",
+      "reference_tokens": 64,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/033/drift_renamepct/0/codeparrot/810/4",
+      "source_task_id": "drift_renamepct/0/codeparrot/810/4",
+      "old": "__vantage_unused_old_033",
+      "new": "__vantage_unused_new_033",
+      "reference_tokens": 157,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/034/drift_renamepct/0/codeparrot/1044/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1044/0",
+      "old": "__vantage_unused_old_034",
+      "new": "__vantage_unused_new_034",
+      "reference_tokens": 201,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/035/drift_renamepct/0/codeparrot/1044/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/1044/1",
+      "old": "__vantage_unused_old_035",
+      "new": "__vantage_unused_new_035",
+      "reference_tokens": 219,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/036/drift_renamepct/0/codeparrot/1044/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/1044/2",
+      "old": "__vantage_unused_old_036",
+      "new": "__vantage_unused_new_036",
+      "reference_tokens": 570,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/037/drift_renamepct/0/codeparrot/1044/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/1044/3",
+      "old": "__vantage_unused_old_037",
+      "new": "__vantage_unused_new_037",
+      "reference_tokens": 145,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/038/drift_renamepct/0/codeparrot/1044/4",
+      "source_task_id": "drift_renamepct/0/codeparrot/1044/4",
+      "old": "__vantage_unused_old_038",
+      "new": "__vantage_unused_new_038",
+      "reference_tokens": 216,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/039/drift_renamepct/0/codeparrot/1044/5",
+      "source_task_id": "drift_renamepct/0/codeparrot/1044/5",
+      "old": "__vantage_unused_old_039",
+      "new": "__vantage_unused_new_039",
+      "reference_tokens": 239,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/040/drift_renamepct/0/codeparrot/1044/6",
+      "source_task_id": "drift_renamepct/0/codeparrot/1044/6",
+      "old": "__vantage_unused_old_040",
+      "new": "__vantage_unused_new_040",
+      "reference_tokens": 207,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/041/drift_renamepct/0/codeparrot/1081/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1081/0",
+      "old": "__vantage_unused_old_041",
+      "new": "__vantage_unused_new_041",
+      "reference_tokens": 61,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/042/drift_renamepct/0/codeparrot/1081/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/1081/1",
+      "old": "__vantage_unused_old_042",
+      "new": "__vantage_unused_new_042",
+      "reference_tokens": 247,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/043/drift_renamepct/0/codeparrot/1197/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1197/0",
+      "old": "__vantage_unused_old_043",
+      "new": "__vantage_unused_new_043",
+      "reference_tokens": 174,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/044/drift_renamepct/0/codeparrot/1197/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/1197/1",
+      "old": "__vantage_unused_old_044",
+      "new": "__vantage_unused_new_044",
+      "reference_tokens": 78,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/045/drift_renamepct/0/codeparrot/1254/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1254/0",
+      "old": "__vantage_unused_old_045",
+      "new": "__vantage_unused_new_045",
+      "reference_tokens": 129,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/046/drift_renamepct/0/codeparrot/1254/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/1254/1",
+      "old": "__vantage_unused_old_046",
+      "new": "__vantage_unused_new_046",
+      "reference_tokens": 80,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/047/drift_renamepct/0/codeparrot/1254/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/1254/2",
+      "old": "__vantage_unused_old_047",
+      "new": "__vantage_unused_new_047",
+      "reference_tokens": 124,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/048/drift_renamepct/0/codeparrot/1254/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/1254/3",
+      "old": "__vantage_unused_old_048",
+      "new": "__vantage_unused_new_048",
+      "reference_tokens": 72,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/049/drift_renamepct/0/codeparrot/1325/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1325/0",
+      "old": "__vantage_unused_old_049",
+      "new": "__vantage_unused_new_049",
+      "reference_tokens": 138,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/050/drift_renamepct/0/codeparrot/1593/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1593/0",
+      "old": "__vantage_unused_old_050",
+      "new": "__vantage_unused_new_050",
+      "reference_tokens": 145,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/051/drift_renamepct/0/codeparrot/1602/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1602/0",
+      "old": "__vantage_unused_old_051",
+      "new": "__vantage_unused_new_051",
+      "reference_tokens": 30,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/052/drift_renamepct/0/codeparrot/1988/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/1988/0",
+      "old": "__vantage_unused_old_052",
+      "new": "__vantage_unused_new_052",
+      "reference_tokens": 195,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/053/drift_renamepct/0/codeparrot/1988/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/1988/1",
+      "old": "__vantage_unused_old_053",
+      "new": "__vantage_unused_new_053",
+      "reference_tokens": 77,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/054/drift_renamepct/0/codeparrot/1988/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/1988/2",
+      "old": "__vantage_unused_old_054",
+      "new": "__vantage_unused_new_054",
+      "reference_tokens": 269,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/055/drift_renamepct/0/codeparrot/1988/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/1988/3",
+      "old": "__vantage_unused_old_055",
+      "new": "__vantage_unused_new_055",
+      "reference_tokens": 103,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/056/drift_renamepct/0/codeparrot/1988/4",
+      "source_task_id": "drift_renamepct/0/codeparrot/1988/4",
+      "old": "__vantage_unused_old_056",
+      "new": "__vantage_unused_new_056",
+      "reference_tokens": 97,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/057/drift_renamepct/0/codeparrot/2019/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/2019/0",
+      "old": "__vantage_unused_old_057",
+      "new": "__vantage_unused_new_057",
+      "reference_tokens": 67,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/058/drift_renamepct/0/codeparrot/2201/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/2201/0",
+      "old": "__vantage_unused_old_058",
+      "new": "__vantage_unused_new_058",
+      "reference_tokens": 48,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/059/drift_renamepct/0/codeparrot/2268/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/2268/0",
+      "old": "__vantage_unused_old_059",
+      "new": "__vantage_unused_new_059",
+      "reference_tokens": 76,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/060/drift_renamepct/0/codeparrot/2268/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/2268/1",
+      "old": "__vantage_unused_old_060",
+      "new": "__vantage_unused_new_060",
+      "reference_tokens": 41,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/061/drift_renamepct/0/codeparrot/2559/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/2559/0",
+      "old": "__vantage_unused_old_061",
+      "new": "__vantage_unused_new_061",
+      "reference_tokens": 114,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/062/drift_renamepct/0/codeparrot/2559/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/2559/1",
+      "old": "__vantage_unused_old_062",
+      "new": "__vantage_unused_new_062",
+      "reference_tokens": 262,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/063/drift_renamepct/0/codeparrot/2559/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/2559/2",
+      "old": "__vantage_unused_old_063",
+      "new": "__vantage_unused_new_063",
+      "reference_tokens": 880,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/064/drift_renamepct/0/codeparrot/2559/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/2559/3",
+      "old": "__vantage_unused_old_064",
+      "new": "__vantage_unused_new_064",
+      "reference_tokens": 132,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/065/drift_renamepct/0/codeparrot/2559/4",
+      "source_task_id": "drift_renamepct/0/codeparrot/2559/4",
+      "old": "__vantage_unused_old_065",
+      "new": "__vantage_unused_new_065",
+      "reference_tokens": 496,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/066/drift_renamepct/0/codeparrot/2559/5",
+      "source_task_id": "drift_renamepct/0/codeparrot/2559/5",
+      "old": "__vantage_unused_old_066",
+      "new": "__vantage_unused_new_066",
+      "reference_tokens": 188,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/067/drift_renamepct/0/codeparrot/2619/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/0",
+      "old": "__vantage_unused_old_067",
+      "new": "__vantage_unused_new_067",
+      "reference_tokens": 55,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/068/drift_renamepct/0/codeparrot/2619/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/1",
+      "old": "__vantage_unused_old_068",
+      "new": "__vantage_unused_new_068",
+      "reference_tokens": 358,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/069/drift_renamepct/0/codeparrot/2619/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/2",
+      "old": "__vantage_unused_old_069",
+      "new": "__vantage_unused_new_069",
+      "reference_tokens": 210,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/070/drift_renamepct/0/codeparrot/2619/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/3",
+      "old": "__vantage_unused_old_070",
+      "new": "__vantage_unused_new_070",
+      "reference_tokens": 309,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/071/drift_renamepct/0/codeparrot/2619/4",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/4",
+      "old": "__vantage_unused_old_071",
+      "new": "__vantage_unused_new_071",
+      "reference_tokens": 33,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/072/drift_renamepct/0/codeparrot/2619/5",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/5",
+      "old": "__vantage_unused_old_072",
+      "new": "__vantage_unused_new_072",
+      "reference_tokens": 53,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/073/drift_renamepct/0/codeparrot/2619/6",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/6",
+      "old": "__vantage_unused_old_073",
+      "new": "__vantage_unused_new_073",
+      "reference_tokens": 106,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/074/drift_renamepct/0/codeparrot/2619/7",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/7",
+      "old": "__vantage_unused_old_074",
+      "new": "__vantage_unused_new_074",
+      "reference_tokens": 130,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/075/drift_renamepct/0/codeparrot/2619/8",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/8",
+      "old": "__vantage_unused_old_075",
+      "new": "__vantage_unused_new_075",
+      "reference_tokens": 114,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/076/drift_renamepct/0/codeparrot/2619/9",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/9",
+      "old": "__vantage_unused_old_076",
+      "new": "__vantage_unused_new_076",
+      "reference_tokens": 100,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/077/drift_renamepct/0/codeparrot/2619/10",
+      "source_task_id": "drift_renamepct/0/codeparrot/2619/10",
+      "old": "__vantage_unused_old_077",
+      "new": "__vantage_unused_new_077",
+      "reference_tokens": 193,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/078/drift_renamepct/0/codeparrot/2651/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/2651/0",
+      "old": "__vantage_unused_old_078",
+      "new": "__vantage_unused_new_078",
+      "reference_tokens": 43,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/079/drift_renamepct/0/codeparrot/2736/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/2736/0",
+      "old": "__vantage_unused_old_079",
+      "new": "__vantage_unused_new_079",
+      "reference_tokens": 75,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/080/drift_renamepct/0/codeparrot/3031/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/3031/0",
+      "old": "__vantage_unused_old_080",
+      "new": "__vantage_unused_new_080",
+      "reference_tokens": 170,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/081/drift_renamepct/0/codeparrot/3031/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/3031/1",
+      "old": "__vantage_unused_old_081",
+      "new": "__vantage_unused_new_081",
+      "reference_tokens": 138,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/082/drift_renamepct/0/codeparrot/3053/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/3053/0",
+      "old": "__vantage_unused_old_082",
+      "new": "__vantage_unused_new_082",
+      "reference_tokens": 32,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/083/drift_renamepct/0/codeparrot/3053/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/3053/1",
+      "old": "__vantage_unused_old_083",
+      "new": "__vantage_unused_new_083",
+      "reference_tokens": 71,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/084/drift_renamepct/0/codeparrot/3064/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/3064/0",
+      "old": "__vantage_unused_old_084",
+      "new": "__vantage_unused_new_084",
+      "reference_tokens": 123,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/085/drift_renamepct/0/codeparrot/3293/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/3293/0",
+      "old": "__vantage_unused_old_085",
+      "new": "__vantage_unused_new_085",
+      "reference_tokens": 380,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/086/drift_renamepct/0/codeparrot/3434/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/3434/0",
+      "old": "__vantage_unused_old_086",
+      "new": "__vantage_unused_new_086",
+      "reference_tokens": 568,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/087/drift_renamepct/0/codeparrot/3434/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/3434/1",
+      "old": "__vantage_unused_old_087",
+      "new": "__vantage_unused_new_087",
+      "reference_tokens": 562,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/088/drift_renamepct/0/codeparrot/3434/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/3434/2",
+      "old": "__vantage_unused_old_088",
+      "new": "__vantage_unused_new_088",
+      "reference_tokens": 91,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/089/drift_renamepct/0/codeparrot/3434/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/3434/3",
+      "old": "__vantage_unused_old_089",
+      "new": "__vantage_unused_new_089",
+      "reference_tokens": 172,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/090/drift_renamepct/0/codeparrot/3835/0",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/0",
+      "old": "__vantage_unused_old_090",
+      "new": "__vantage_unused_new_090",
+      "reference_tokens": 145,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/091/drift_renamepct/0/codeparrot/3835/1",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/1",
+      "old": "__vantage_unused_old_091",
+      "new": "__vantage_unused_new_091",
+      "reference_tokens": 134,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/092/drift_renamepct/0/codeparrot/3835/2",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/2",
+      "old": "__vantage_unused_old_092",
+      "new": "__vantage_unused_new_092",
+      "reference_tokens": 129,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/093/drift_renamepct/0/codeparrot/3835/3",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/3",
+      "old": "__vantage_unused_old_093",
+      "new": "__vantage_unused_new_093",
+      "reference_tokens": 58,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/094/drift_renamepct/0/codeparrot/3835/4",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/4",
+      "old": "__vantage_unused_old_094",
+      "new": "__vantage_unused_new_094",
+      "reference_tokens": 113,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/095/drift_renamepct/0/codeparrot/3835/5",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/5",
+      "old": "__vantage_unused_old_095",
+      "new": "__vantage_unused_new_095",
+      "reference_tokens": 69,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/096/drift_renamepct/0/codeparrot/3835/6",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/6",
+      "old": "__vantage_unused_old_096",
+      "new": "__vantage_unused_new_096",
+      "reference_tokens": 57,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/097/drift_renamepct/0/codeparrot/3835/7",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/7",
+      "old": "__vantage_unused_old_097",
+      "new": "__vantage_unused_new_097",
+      "reference_tokens": 63,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/098/drift_renamepct/0/codeparrot/3835/8",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/8",
+      "old": "__vantage_unused_old_098",
+      "new": "__vantage_unused_new_098",
+      "reference_tokens": 58,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    },
+    {
+      "task_id": "explicit_noop_map/099/drift_renamepct/0/codeparrot/3835/9",
+      "source_task_id": "drift_renamepct/0/codeparrot/3835/9",
+      "old": "__vantage_unused_old_099",
+      "new": "__vantage_unused_new_099",
+      "reference_tokens": 63,
+      "prompt_visible_map": true,
+      "rewrite_changed_reference": false,
+      "tokenization_changed": false
+    }
+  ]
+}

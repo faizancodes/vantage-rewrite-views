@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vantage-rewrite-views"
+version = "0.1.0"
+description = "VANTAGE: fixed-prompt speculative code-edit decoding with hidden rewrite views"
+authors = [{name = "Faizan Ahmed"}]
+requires-python = ">=3.10"
+dependencies = [
+    "tree-sitter>=0.23.0",
+    "tree-sitter-language-pack>=0.4.0",
+    "numpy>=1.26",
+    "pydivsufsort>=0.0.18",
+    "editdistance>=0.8.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+modal = ["modal>=0.66"]
+eval = [
+    "torch>=2.4",
+    "transformers>=4.46",
+    "accelerate>=1.0",
+    "huggingface-hub>=0.26",
+    "datasets>=3.0",
+    "scikit-learn>=1.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["asts*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

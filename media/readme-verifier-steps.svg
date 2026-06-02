@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-labelledby="title desc">
+  <title id="title">Hidden views reduce verifier work</title>
+  <desc id="desc">The measured speedup is explained by fewer target-verifier steps on structured rows.</desc>
+  <rect width="1100" height="500" fill="#fbfbfb"/>
+  <rect x="24" y="24" width="1052" height="452" rx="0" fill="#ffffff" stroke="#d4d4d8"/>
+  <text x="48" y="62" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#71717a" text-transform="uppercase">VANTAGE / controlled fp32/sdpa</text>
+  <text x="48" y="96" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="300" fill="#0a0a0a">Hidden views reduce verifier work</text>
+  <text x="48" y="122" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#52525b">The measured speedup is explained by fewer target-verifier steps on structured rows.</text>
+  <line x1="278.0" y1="176" x2="278.0" y2="396" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="278.0" y="426" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="11" fill="#71717a" text-anchor="middle">0</text>
+  <line x1="468.8" y1="176" x2="468.8" y2="396" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="468.8" y="426" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="11" fill="#71717a" text-anchor="middle">400</text>
+  <line x1="659.5" y1="176" x2="659.5" y2="396" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="659.5" y="426" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="11" fill="#71717a" text-anchor="middle">800</text>
+  <line x1="850.3" y1="176" x2="850.3" y2="396" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="850.3" y="426" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="11" fill="#71717a" text-anchor="middle">1200</text>
+  <rect x="48" y="138" width="10" height="10" fill="#a1a1aa"/><text x="66" y="148" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#52525b">PLD verifier steps</text>
+  <rect x="204" y="138" width="10" height="10" fill="#00b894"/><text x="222" y="148" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#52525b">VANTAGE/SR verifier steps</text>
+  <text x="48" y="214" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#0a0a0a">Field substitutions</text>
+  <rect x="278" y="190" width="358.6" height="18" rx="4" fill="#a1a1aa"/>
+  <rect x="278" y="216" width="185.0" height="18" rx="4" fill="#00b894"/>
+  <text x="646.6" y="204" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" fill="#52525b">752</text>
+  <text x="473.0" y="230" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#0a0a0a">388</text>
+  <text x="926" y="218" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#008f75">48.4% fewer</text>
+  <text x="48" y="280" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#0a0a0a">Identifier-style substitutions</text>
+  <rect x="278" y="256" width="572.3" height="18" rx="4" fill="#a1a1aa"/>
+  <rect x="278" y="282" width="192.7" height="18" rx="4" fill="#00b894"/>
+  <text x="860.3" y="270" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" fill="#52525b">1200</text>
+  <text x="480.7" y="296" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#0a0a0a">404</text>
+  <text x="926" y="284" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#008f75">66.3% fewer</text>
+  <text x="48" y="346" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#0a0a0a">Mixed controlled suite</text>
+  <rect x="278" y="322" width="429.7" height="18" rx="4" fill="#a1a1aa"/>
+  <rect x="278" y="348" width="237.5" height="18" rx="4" fill="#00b894"/>
+  <text x="717.7" y="336" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" fill="#52525b">901</text>
+  <text x="525.5" y="362" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#0a0a0a">498</text>
+  <text x="926" y="350" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#008f75">44.7% fewer</text>
+  <text x="48" y="454" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#52525b">Verifier steps are logged decode/verification steps under the shared root/catch-up convention.</text>
+</svg>

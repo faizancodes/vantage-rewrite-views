@@ -1,0 +1,19 @@
+{
+  "name": "vantage-explainer-gif",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render:gif": "remotion render src/index.ts VantageExplainer ../../media/vantage-technique-explainer.gif --codec=gif",
+    "still": "remotion still src/index.ts VantageExplainer ../../media/vantage-technique-frame.png --frame=120"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.376",
+    "remotion": "^4.0.376",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "typescript": "^5.8.3"
+  }
+}

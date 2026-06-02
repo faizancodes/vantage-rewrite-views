@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="690" viewBox="0 0 1100 690" role="img" aria-labelledby="title desc">
+  <title id="title">Why VANTAGE helps code-edit decoding</title>
+  <desc id="desc">When an edit renames code, literal PLD proposes old text; VANTAGE proposes the renamed span for target verification.</desc>
+  <rect width="1100" height="690" fill="#fbfbfb"/>
+  <rect x="24" y="24" width="1052" height="642" rx="0" fill="#ffffff" stroke="#d4d4d8"/>
+  <text x="48" y="62" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#71717a" text-transform="uppercase">VANTAGE / Rewrite-View Lookup</text>
+  <text x="48" y="96" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="300" fill="#0a0a0a">Why VANTAGE helps code-edit decoding</text>
+  <text x="48" y="122" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#52525b">When an edit renames code, literal PLD proposes old text; VANTAGE proposes the renamed span for target verification.</text>
+  <rect x="54" y="164" width="472" height="260" rx="4" fill="#ffffff" stroke="#d4d4d8"/>
+  <text x="76" y="198" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#71717a" text-transform="uppercase">Ordinary PLD sees only literal recurrence</text>
+  <text x="76" y="230" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400" fill="#52525b">The prompt has old code.</text>
+  <text x="76" y="248" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400" fill="#52525b">The edit wants account.name instead.</text>
+  <rect x="76" y="276" width="198" height="80" rx="4" fill="#f4f4f5" stroke="#e4e4e7"/>
+  <text x="92" y="306" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#71717a">reference:</text>
+  <text x="92" y="332" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#0a0a0a">return user.name</text>
+  
+  <line x1="289" y1="320" x2="327" y2="320" stroke="#a1a1aa" stroke-width="2.4"/>
+  <path d="M327 313 L339 320 L327 327" fill="none" stroke="#a1a1aa" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="354" y="276" width="146" height="80" rx="4" fill="#f4f4f5" stroke="#e4e4e7"/>
+  <text x="370" y="306" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#71717a">PLD draft:</text>
+  <text x="370" y="332" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#a1a1aa">user.name</text>
+  <rect x="76" y="371" width="428" height="30" rx="4" fill="#f4f4f5" stroke="#e4e4e7"/>
+  <text x="92" y="391" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#52525b">Result: short drafts, because the useful span is no longer literal.</text>
+  <rect x="574" y="164" width="472" height="260" rx="4" fill="#ffffff" stroke="#008f75" stroke-width="2"/>
+  <text x="596" y="198" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#71717a" text-transform="uppercase">VANTAGE adds a hidden rewritten draft source</text>
+  <text x="596" y="230" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400" fill="#52525b">VANTAGE uses the visible rename to build</text>
+  <text x="596" y="248" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400" fill="#52525b">a hidden draft that already says account.name.</text>
+  <rect x="596" y="276" width="188" height="80" rx="4" fill="#f4f4f5" stroke="#e4e4e7"/>
+  <text x="612" y="306" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#71717a">visible map:</text>
+  <text x="612" y="332" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#0a0a0a">user -&gt; account</text>
+  
+  <line x1="798" y1="320" x2="832" y2="320" stroke="#008f75" stroke-width="2.4"/>
+  <path d="M832 313 L844 320 L832 327" fill="none" stroke="#008f75" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="858" y="276" width="164" height="80" rx="4" fill="#f4f4f5" stroke="#e4e4e7"/>
+  <text x="874" y="306" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#71717a">hidden view:</text>
+  <text x="874" y="332" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="14.5" font-weight="700" fill="#008f75">account.name</text>
+  <rect x="596" y="371" width="428" height="30" rx="4" fill="#ecfdf7" stroke="#00b894"/>
+  <text x="612" y="391" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#008f75">Result: longer accepted drafts without changing the visible prompt.</text>
+  <text x="54" y="466" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#71717a" text-transform="uppercase">Core contributions shown in the paper</text>
+  <rect x="54" y="488" width="230" height="104" rx="4" fill="#ffffff" stroke="#d4d4d8" stroke-width="1"/>
+  <circle cx="78" cy="516" r="13" fill="#00b894"/>
+  <text x="78" y="521" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#0a0a0a" text-anchor="middle">1</text>
+  <text x="100" y="514" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#0a0a0a">Rewrite-View Lookup</text>
+  <text x="100" y="538" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">Builds a hidden reference</text>
+  <text x="100" y="554" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">from prompt-visible rewrites.</text>
+  <rect x="308" y="488" width="230" height="104" rx="4" fill="#ffffff" stroke="#d4d4d8" stroke-width="1"/>
+  <circle cx="332" cy="516" r="13" fill="#00b894"/>
+  <text x="332" y="521" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#0a0a0a" text-anchor="middle">2</text>
+  <text x="354" y="514" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#0a0a0a">SafeRoute</text>
+  <text x="354" y="538" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">Chooses PLD or rewrite-view</text>
+  <text x="354" y="554" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">drafts; falls back when needed.</text>
+  <rect x="562" y="488" width="230" height="104" rx="4" fill="#ffffff" stroke="#d4d4d8" stroke-width="1"/>
+  <circle cx="586" cy="516" r="13" fill="#00b894"/>
+  <text x="586" y="521" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#0a0a0a" text-anchor="middle">3</text>
+  <text x="608" y="514" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#0a0a0a">Verifier contract</text>
+  <text x="608" y="538" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">Drafts are checked by target;</text>
+  <text x="608" y="554" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">argmax tokens come from target.</text>
+  <rect x="816" y="488" width="230" height="104" rx="4" fill="#ffffff" stroke="#008f75" stroke-width="2"/>
+  <circle cx="840" cy="516" r="13" fill="#00b894"/>
+  <text x="840" y="521" font-family="'SF Mono', 'Geist Mono', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#0a0a0a" text-anchor="middle">4</text>
+  <text x="862" y="514" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#0a0a0a">Controlled evidence</text>
+  <text x="862" y="538" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">1.28x-1.64x vs tuned PLD;</text>
+  <text x="862" y="554" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="400" fill="#52525b">100/100 greedy parity audited.</text>
+  <rect x="54" y="616" width="992" height="34" rx="4" fill="#f4f4f5" stroke="#e4e4e7"/>
+  <text x="72" y="638" font-family="Inter, Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#52525b">VANTAGE is useful when an explicit edit changes repeated code names: it restores copy opportunities while preserving the target model&apos;s fixed-prompt behavior.</text>
+</svg>

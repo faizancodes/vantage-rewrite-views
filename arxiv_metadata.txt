@@ -1,0 +1,12 @@
+Title:
+VANTAGE: Hidden Rewrite Views for Fixed-Prompt Speculative Code-Edit Decoding
+Authors:
+Faizan Ahmed
+Primary category suggestion:
+cs.LG
+Cross-list suggestion:
+cs.SE
+Comments:
+25 pages, 2 figures, 23 tables. Code: https://github.com/faizancodes/vantage-rewrite-views. Artifacts: https://huggingface.co/datasets/faizancodes/vantage-artifacts.
+Plain-text abstract:
+Prompt lookup decoding (PLD) is a strong model-free accelerator for copy-heavy code edits, but literal prompt recurrence breaks near systematic reference drift. We introduce VANTAGE, a fixed-prompt speculative decoder whose core primitive, Rewrite-View Lookup, materializes prompt-visible explicit rewrites as an internal draft source while leaving the target model's visible prompt unchanged. Every emitted draft token is target-verified, and every correction or bonus token is emitted directly from target argmax logits. Thus, under an exact deterministic verifier, the hidden view can affect latency but not the fixed-prompt greedy output; our fp32/eager and fp32/sdpa audits confirm this on the controlled workloads. On Qwen2.5-Coder-7B controlled explicit-map Python edit workloads, the audited fp32/sdpa path is 1.28x faster than tuned PLD on field substitutions, 1.64x faster on identifier-style substitutions, and 1.33x faster on a mixed suite, with PLD and VANTAGE/SafeRoute both matching vanilla greedy on 100/100 prompts in every audited workload. The result is a controlled mechanism study: deterministic hidden views can recover speculative copy opportunities that literal PLD misses while preserving the original prompt-conditioned greedy behavior. The evidence is limited to explicit-map, high-copy workloads; bf16 paths still drift, multi-view real-commit evidence remains preliminary, and we do not claim production serving, broad edit quality, multi-model universality, or sampling preservation.

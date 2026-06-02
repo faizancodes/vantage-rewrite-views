@@ -1,0 +1,11 @@
+# Local reproduction dependencies for VANTAGE.
+# Project core/eval/modal extras are defined in pyproject.toml.
+-e .[eval,modal]
+
+# Runtime packages installed inside the Modal Debian entrypoint.
+# CUDA timing runs install torch==2.5.1 from the PyTorch cu124 index in
+# vantage_runtime_debian_app.py before installing the remaining packages.
+datasets>=3.0
+scikit-learn>=1.4
+pydivsufsort>=0.0.18
+editdistance>=0.8.1
